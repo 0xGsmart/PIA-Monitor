@@ -49,7 +49,7 @@ namespace PIA_Monitor
                 {
                     notifyIcon.Text = "PIA is connected.";
 
-                    // if PIA is up, check if qBittorrent is running. If not, start it.
+                    // if PIA is up, check if the program is running. If not, start it.
                     Process[] localByName = Process.GetProcessesByName(appName);
                     if (localByName.Count() == 0)
                     {
